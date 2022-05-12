@@ -38,3 +38,6 @@ ifeq ($(GAPPS_BUILD),true)
     IS_PHONE := true
     TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
 endif
+
+#Ignore Neverallows
+SELINUX_IGNORE_NEVERALLOWS := true

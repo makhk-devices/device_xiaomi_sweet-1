@@ -385,4 +385,10 @@
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
     <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
+
+    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
+         May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <integer name="config_screenBrightnessDoze">17</integer>
+
 </resources>

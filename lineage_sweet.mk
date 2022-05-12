@@ -25,3 +25,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # FLOS
 TARGET_FLOS := true
 FLOS_TYPE := vanilla
+
+#Ignore Neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
